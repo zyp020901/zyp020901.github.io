@@ -19,6 +19,10 @@ export default defineConfig({
     }),
     
   ],
+  base:"/zyp020901.github.io/",
+  build:{
+    outDir:"docs"
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
